@@ -8,7 +8,7 @@
 <body>
 
 	<div class="container mt-3 mb-3">
-		<form method="post">
+		<form method="post" action="AddSpecies.js">
 			<div class="row justify-content-center">
 				<div class="col-4">
 					<div class="form-group">
@@ -21,13 +21,13 @@
 					</div>
                     <div class="form-group">
 						<label>Time Found:</label>
-						<input class="form-control" id="time" placeholder="Enter Time" name="time" required>
+						<input type="time" class="form-control" id="time" placeholder="Enter Time" name="time" required>
 					</div>
 					<div class="form-group">
 						<label>Number Found:</label>
 						<input type="number" class="form-control" id="num" placeholder="Enter password" name="num" required>
 					</div>
-					<button type="submit" class="btn btn-primary">Submit</button>
+					<button type="submit" id="AddSpecies" class="btn btn-primary">Submit</button>
 				</div>
 			</div>
 		</form>
