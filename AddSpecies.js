@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 	$("#registerAnimal").click(function(){
-		$('#action').val('regiserAnimal');
+		$('#action').val('registerAnimal');
 		$('#save').val('Add');
 	});
 
