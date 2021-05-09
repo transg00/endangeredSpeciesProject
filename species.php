@@ -8,7 +8,8 @@ class Species
         global $conn;
 
         $sqlQuery = "SELECT species_Name as 'name', avg_length as 'len', avg_weight as 'weight', habitat as 'hab', population as 'pop', status as 'status'
-        FROM endangered_Species;";
+        FROM endangered_Species ";
+
 
         $stmt = $conn->prepare($sqlQuery);
         $stmt->execute();
