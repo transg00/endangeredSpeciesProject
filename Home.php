@@ -65,7 +65,8 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Endangered Species</a></li>
+        <li><a href="species_page.php">Endangered Species</a></li>
+        <li><a href="#">Register Sepcies</a></li>
         <li><a href="#">Donate!</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
