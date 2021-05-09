@@ -7,7 +7,7 @@ public function donate()
     {
         global $conn;
         
-        $sqlQuery = "INSERT into donations(donation_ammount) 
+        $sqlQuery = "INSERT into donations(donation_amount) 
                         VALUES
                      (:donation)"; 
         $stmt = $conn->prepare($sqlQuery);
