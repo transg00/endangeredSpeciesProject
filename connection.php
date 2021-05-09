@@ -39,7 +39,7 @@ if (!isset($_SESSION['user_ID']))
         if(!empty($queryResult) && $_POST["password"] == $queryResult['password']))
         {
             // Create session variable
-            $_SESSION['user_ID'] = $queryResult['ID'];
+            $_SESSION['user_ID'] = $queryResult['webUser_id'];
             
             // Redirect to URL 
             header("Location: Home.php");
