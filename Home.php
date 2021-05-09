@@ -66,8 +66,10 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
         <li><a href="species_page.php">Endangered Species</a></li>
-        <li><a href="AddSpecies_page.php">Register Sepcies</a></li>
+        <li><a href="AddSpecies_page.php">Register Sepcies</a></li>    
         <li><a href="Donation_page.php">Donate!</a></li>
+        <li><a href="Animals_registered_page.php">View Your Registered Species</a></li>
+
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
