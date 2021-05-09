@@ -39,12 +39,12 @@ if (!isset($_SESSION['webUser_id']))
         
         $queryResult = $stmt->fetch();
         echo $queryResult[1];
-        /*
+        
         // Verify password submitted by the user with the hash stored in the database
         if(!empty($queryResult) && $_POST['password'] == $queryResult[1]))
         {
             // Create session variable
-            $_SESSION['webUser_id'] = $queryResult['webUser_id'];
+           // $_SESSION['webUser_id'] = $queryResult['webUser_id'];
             
             // Redirect to URL 
             header("Location: Home.php");
@@ -53,7 +53,7 @@ if (!isset($_SESSION['webUser_id']))
             require('login.php');
             exit();
         }
-    */
+    
     }
     else
     {
