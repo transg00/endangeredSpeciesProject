@@ -83,24 +83,24 @@
   <div class="row">
     <div class="col-sm-4">
       <div class="panel panel-primary">
-        <div class="panel-heading">Black Bears</div>
+        <div class="panel-heading">Sumatran Orangutan</div>
         <div class="panel-body"><img src="monkey.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-        <button type="button" class="btn1">Buy Me </button>
+        <button type="button" class="btn1">Critically Endangered</button>
       </div>
     </div>
 
     <div class="col-sm-4"> 
       <div class="panel panel-danger">
-        <div class="panel-heading">Red Fox</div>
+        <div class="panel-heading">Sea Turtle</div>
         <div class="panel-body"><img src="turtle.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-        <button type="button" class="btn1">Buy Me </button>
+        <button type="button" class="btn1">Critically</button>
       </div>
     </div>
 
     <div class="col-sm-4"> 
       <div class="panel panel-success">
         <div class="panel-heading">Wolves</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-body"><img src="AmurLeopard.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
         <button type="button" class="btn1">Buy Me </button>
       </div>
     </div>
@@ -112,21 +112,21 @@
     <div class="col-sm-4">
       <div class="panel panel-primary">
         <div class="panel-heading">Silver Fox</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-body"><img src="seaLion.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
         <button type="button" class="btn1">Buy Me </button>
       </div>
     </div>
     <div class="col-sm-4"> 
       <div class="panel panel-primary">
         <div class="panel-heading">Bob Cat</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-body"><img src="vaquita.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
         <button type="button" class="btn1">Buy Me </button>
       </div>
     </div>
     <div class="col-sm-4"> 
       <div class="panel panel-primary">
         <div class="panel-heading">Racoon</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-body"><img src="Bonbo.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
         <button type="button" class="btn1">Buy Me </button>
       </div>
     </div>
