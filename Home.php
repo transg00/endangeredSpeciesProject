@@ -89,7 +89,7 @@
     <div class="col-sm-4"> 
       <div class="panel panel-danger">
         <div class="panel-heading">Red Fox</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-body"><img src="tiger.jpeg" class="img-responsive" style="width:100%" alt="Image"></div>
         <button type="button" class="btn1">Buy Me </button>
       </div>
     </div>
