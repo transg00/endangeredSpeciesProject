@@ -32,14 +32,14 @@ if (!isset($_SESSION['webUser_id']))
     
     if (isset($_POST['email']) && isset($_POST['password']))
     {
-        /*
+        
         $stmt = $conn->prepare("SELECT webUser_id, password FROM webUser WHERE email=:email");
         $stmt->bindValue(':email', $_POST['email']);
         $stmt->execute();
         
         $queryResult = $stmt->fetch();
         echo $queryResult[1];
-        
+        /*
         // Verify password submitted by the user with the hash stored in the database
         if(!empty($queryResult) && $_POST['password'] == $queryResult[1]))
         {
