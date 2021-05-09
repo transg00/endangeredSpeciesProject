@@ -25,7 +25,7 @@
 				<tr>
 					<th>Name</th>
 					<th>AVG Length</th>
-					<th>ABG Weight</th>
+					<th>AVG Weight</th>
 					<th>Habitat</th>
 					<th>Population</th>
                     <th>Status</th>
