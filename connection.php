@@ -29,6 +29,7 @@ session_start();
 if (!isset($_SESSION['webUser_id']))
 {
     // If the page is receiving the email and password from the login form then verify the login data
+    /*
     if (isset($_POST['email']) && isset($_POST['password']))
     {
         $stmt = $conn->prepare("SELECT webUser_id, password FROM webUser WHERE email=:email");
@@ -58,6 +59,7 @@ if (!isset($_SESSION['webUser_id']))
         require('login.php');
         exit();
     }
+    */
 }
 
 
