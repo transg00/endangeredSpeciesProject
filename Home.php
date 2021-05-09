@@ -84,7 +84,7 @@
     <div class="col-sm-4">
       <div class="panel panel-primary">
         <div class="panel-heading">Black Bears</div>
-        <div class="panel-body"><img src="photos/blackbear.jpeg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-body"><img src="photos/monkey.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
         <button type="button" class="btn1">Buy Me </button>
       </div>
     </div>
@@ -92,7 +92,7 @@
     <div class="col-sm-4"> 
       <div class="panel panel-danger">
         <div class="panel-heading">Red Fox</div>
-        <div class="panel-body"><img src="photos/redFox.jpeg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-body"><img src="photos/turtle.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
         <button type="button" class="btn1">Buy Me </button>
       </div>
     </div>
