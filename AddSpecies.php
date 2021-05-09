@@ -15,7 +15,7 @@ public function registerAnimal()
         $stmt->bindValue(':time', $_POST["time"]);
         $stmt->bindValue(':number', $_POST["number"]);
         $stmt->execute();
-        header("Location: Hone.php");
+        header("Location: Home.php");
     }  
 }
 

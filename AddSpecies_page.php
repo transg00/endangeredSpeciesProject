@@ -27,7 +27,7 @@
 						<label>Number Found:</label>
 						<input type="number" class="form-control" id="num" placeholder="Enter password" name="num" required>
 					</div>
-					<button type="submit" id="AddSpecies" class="btn btn-primary">Submit</button>
+					<button type="submit" id="registerAnimal" class="btn btn-primary">Submit</button>
 				</div>
 			</div>
 		</form>
