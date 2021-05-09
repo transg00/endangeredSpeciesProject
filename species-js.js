@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    $('#table-employee').DataTable({
+    $('#table-rest').DataTable({
         "dom": 'Blfrtip',
         "ordering":false,
         "bLengthChange": false,
