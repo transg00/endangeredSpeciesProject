@@ -8,7 +8,7 @@
 <body>
 
 	<div class="container mt-3 mb-3">
-		<form method="post" action="AddSpecies.js">
+		<form method="post" action="AddSpecies.php">
 			<div class="row justify-content-center">
 				<div class="col-4">
 					<div class="form-group">
