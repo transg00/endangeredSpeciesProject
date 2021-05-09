@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Restaurants </title>
+<title> Species </title>
 <!-- JS libraries -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
@@ -18,7 +18,7 @@
 <body>
 
 <div class="container-fluid mt-3 mb-3">
-	<h4>Restaurants</h4>
+	<h4>Species</h4>
 	<div class="table-responsive">
 		<table id="table-rest" name="table-rest" class="table table-bordered table-striped">
 			<thead>
