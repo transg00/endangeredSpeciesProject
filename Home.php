@@ -126,7 +126,7 @@
     </div>
     <div class="col-sm-4"> 
       <div class="panel panel-primary">
-        <div class="panel-heading">Bonbo/div>
+        <div class="panel-heading">Bonbo</div>
         <div class="panel-body"><img src="Bonbo.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
         <button type="button" class="btn1">Endangered  </button>
       </div>
