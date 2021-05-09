@@ -23,7 +23,7 @@ public function registerAnimal()
 
 $animal = new Animal();
 
-$animal >registerAnimal();
+$animal ->registerAnimal();
 
 
 ?>
