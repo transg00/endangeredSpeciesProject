@@ -7,7 +7,7 @@ class Species
     {
         global $conn;
 
-        $sqlQuery = "SELECT species_Name as 'name', avg_length as 'length', avg_weight as 'weight', habitat as 'habitat', population as 'population', status as 'status'
+        $sqlQuery = "SELECT species_Name as 'name', avg_length as 'len', avg_weight as 'weight', habitat as 'hab', population as 'pop', status as 'status'
         FROM endangered_Species;";
 
         $stmt = $conn->prepare($sqlQuery);
@@ -20,10 +20,10 @@ class Species
         while ($sqlRow = $stmt->fetch()) {
             $dataRow = array();
             $dataRow[] = $sqlRow['name'];
-            $dataRow[] = $sqlRow['length'];
+            $dataRow[] = $sqlRow['len'];
             $dataRow[] = $sqlRow['weight'];
-            $dataRow[] = $sqlRow['habitat'];
-            $dataRow[] = $sqlRow['population'];
+            $dataRow[] = $sqlRow['hab'];
+            $dataRow[] = $sqlRow['pop'];
             $dataRow[] = $sqlRow['status'];
             $dataTable[] = $dataRow;
         }
