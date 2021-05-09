@@ -40,7 +40,7 @@ class Species
 }
 
 $Species = new Species();
-$Species-> listSpecies());
+$Species-> listSpecies();
 
 
 ?>
