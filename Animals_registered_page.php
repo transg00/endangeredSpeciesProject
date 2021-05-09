@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"/>
 <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css"/>
 <!-- My JS libraries -->
-<script src="species-js.js"></script>
+<script src="registered_table.js"></script>
 </head>
 
 <?php require_once('connection.php'); ?>
