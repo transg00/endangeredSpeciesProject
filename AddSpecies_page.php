@@ -25,7 +25,7 @@
 					</div>
 					<div class="form-group">
 						<label>Number Found:</label>
-						<input type="number" class="form-control" id="num" placeholder="Enter password" name="num" required>
+						<input type="number" class="form-control" id="number" placeholder="Enter password" name="number" required>
 					</div>
 					<button type="submit" id="registerAnimal" class="btn btn-primary">Submit</button>
 				</div>
