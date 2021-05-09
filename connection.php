@@ -25,8 +25,8 @@ session_start();
 
 // If the user_ID session is not set, then the user has not logged in yet
 
-/*
-if (!isset($_SESSION['user_ID']))
+
+if (!isset($_SESSION['webUser_id']))
 {
     // If the page is receiving the email and password from the login form then verify the login data
     if (isset($_POST['email']) && isset($_POST['password']))
@@ -42,7 +42,7 @@ if (!isset($_SESSION['user_ID']))
         if(!empty($queryResult) && $_POST['password'] == $queryResult[1]))
         {
             // Create session variable
-            $_SESSION['user_ID'] = $queryResult['webUser_id'];
+            $_SESSION['webUser_id'] = $queryResult['webUser_id'];
             
             // Redirect to URL 
             header("Location: Home.php");
@@ -59,7 +59,7 @@ if (!isset($_SESSION['user_ID']))
         exit();
     }
 }
-*/
+
 
 
 ?>
