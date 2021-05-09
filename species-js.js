@@ -12,7 +12,7 @@ $(document).ready(function(){
          "language": {processing: '<i class="fa fa-spinner fa-spin fa-2x fa-fw"></i>'},
          "order":[],
          "ajax":{
-             url:"species.php",
+             url:"species.php", 
              type:"POST",
              data:{
                      action:'listSpecies'

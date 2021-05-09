@@ -38,8 +38,8 @@ class Species
     }
 }
 
-$User = new Species();
-$User-> listSpecies());
+$Species = new Species();
+$Species-> listSpecies());
 
 
 ?>
