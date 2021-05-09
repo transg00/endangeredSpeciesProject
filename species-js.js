@@ -19,7 +19,7 @@ $(document).ready(function(){
                  },
              dataType:"json"
          },
-         "columnDefs":[ {"targets":[0], "visible":true} ],
+         "columnDefs":[ {"targets":[1], "visible":true} ],
 
      });
  
